@@ -1,0 +1,25 @@
+{
+  "name": "olylizz",
+  "version": "1.0.0",
+  "description": "fashion design\u001b[D\u001b[D\u001b[C\u001b[C, Apparel and Clothing",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Clothing\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cs",
+    "Apparel",
+    "Fabrics"
+  ],
+  "author": "Egbo Chijioke Aloysius (Beans Ltd)",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "autoprefixer": "^10.4.7",
+    "bootstrap": "^5.2.0-beta1",
+    "font-awesome": "^4.7.0"
+  }
+}
