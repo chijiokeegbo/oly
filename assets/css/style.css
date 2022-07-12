@@ -10955,18 +10955,20 @@ textarea.form-control-lg {
 }
 .portfolio button {
   text-transform: capitalize;
+  margin-bottom: 1rem;
 }
 
 .portfolio-box {
   position: relative;
   width: 100%;
-  height: 18.5rem;
+  max-height: 18.5rem;
   overflow: hidden;
   margin-bottom: 1.2rem;
+  border-top: 0.5rem solid #BB6EF5;
 }
 .portfolio-box img {
+  transform: scale(1.5);
   width: 100%;
-  height: 100%;
 }
 .portfolio-box .portfolio-info {
   background-color: rgba(153, 38, 240, 0.75);
@@ -10974,9 +10976,27 @@ textarea.form-control-lg {
   height: 100%;
   position: absolute;
   top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
 }
 .portfolio-box .portfolio-info .caption {
   text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.portfolio-box .portfolio-info h4 {
+  text-transform: uppercase;
+  display: block;
+}
+.portfolio-box:hover .portfolio-info {
+  opacity: 1;
+  visibility: visible;
+  transition-duration: 1000ms;
+  transition-property: all;
 }
 
 .services {
